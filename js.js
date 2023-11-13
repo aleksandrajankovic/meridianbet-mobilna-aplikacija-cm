@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
     flagImg.setAttribute("src", selectedImage);
 
     // Dodavanje posebnog slučaja za ./TZ/index.html
-    if (selectedLang === "en") {
-      flagImg.setAttribute("src", "./img/icons/en.svg");
+    if (selectedLang === "fr") {
+      flagImg.setAttribute("src", "./img/icons/fr.svg");
     }
   }
 
